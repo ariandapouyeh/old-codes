@@ -1,0 +1,58 @@
+ * { 
+  border: 1px inset rgba(0, 0, 0, 0.3);         /* border shows the boxes present in our site.     It can be set to solid, dashed, dotted, double, groove, inset, outset, ridge, hidden. */
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;              /* box-sizing sets the format of box model, border-box format avoid the default problems which may be seen in content-box */
+}  
+
+p {
+	color: black;
+	font-family: 'Ranga', cursive ,arial;
+	font-size: 17px;
+	font-weight: 100; /* Bayan konande-ye shafafiat-e dar sourati ke balaye aks bashe. */ 
+	line-height: 24px;
+	margin: auto; /* Sets the space between the elements.*/ 
+	text-align: center;
+	width: 65%;
+	padding: 20px 10px;       /* Can also use four propeties of padding-(bottom, top, left, right). */
+	position: static; /* The position of an element can be set to four different values, which are static, relative, absolute and fixed. Static is the browsers default position-format */ 
+
+}
+h2 {
+	/*background-image: url("http://previews.123rf.com/images/grigory_bruev/grigory_bruev1212/grigory_bruev121200008/16811091-Oriental-Persian-Carpet-Texture-Stock-Photo.jpg");*/
+	background-color: Maroon;
+	text-align: center;
+	font-family: Brush Script Std, Brush Script MT, cursive/*'Alex Brus', cursive ,arial*/;
+	color: bisque;
+	font-size: 50px;
+	height: 60px;
+	width: 100%;
+	min-height: 80px; /* min-height or width sets the minimum size of our box */ 
+	max-height: 40px; /* max-hight or width = max size of our box */ 
+	overflow: scroll; /* when max-height, width is too small an hidden, can either scroll or hide them.       Can be set to: scroll || hidden */ 
+	border-width: 2px 4px;
+	border-color: blue;
+	border-radius: 8px;
+	position: relative;       /* The relative position can be set by yourself by properties top, botto, left and right. */
+	top: 50px;
+}
+
+ul, li {
+	text-align: center;
+	font-family: 'Jaldi', sans-serif;
+	padding: 20px;
+	float: left;            /* sets the position of the elements to either left or right as much as possible */
+	/* clear can be used to set the other affected elements from float order to their normal position, it can be set to left, right, both and none. */
+}
+a {
+	border-width: 2px;               /* Can be set to thin, medium, thick */       /* Can also use: rder-top-width, border-right-width, border-bottom-width and border-left-width*/
+	border: none;
+	width: 800%;
+	margin: 0px 715px;                /* One of the main elements in positioning of the elements in CSS. */
+	display: inline-block;           /* The value of display can be set to none, inline-block , block and inline. Read more about display in: https://www.codecademy.com/courses/learn-html-css/lessons/content/exercises/display */
+	visibility: visible;             /* visibility is the element you control the visibility of elements with. */
+	float: both; 
+}
+
+
+/* z-index is the order which prevents elements in the webpage to overlap whith each other, its value can be set to 0 (letting elements to overlap) or higher (preventing it). */
