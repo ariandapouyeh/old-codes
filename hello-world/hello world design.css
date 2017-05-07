@@ -1,0 +1,66 @@
+/* The following link directs you to the inventory of css colors: http://www.colors.commutercreative.com/grid/*/ 
+/* The source for the rgb colors: https://color.adobe.com/da/create/color-wheel/ */ 
+h1 {
+	color: hsl(120, 99.95%, 66.2%); /* This color declaration is for older browsers, which do not support hsla() */
+	
+	color: hsla(120, 99.9%, 66.2%, 0.7);
+	background-color: black; 
+	font-family: 'Bungee Inline', cursive;
+	font-size: 40px;
+	word-spacing: 0.3em;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+/*hsl color wheele: https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2015/01/hsl-color-wheel.png */
+a {
+  font-family: /* Use Garamond font-family*/ Garamond, Times /* If Garamond is not available, then use Times*/ , serif /* If both are not available use any pre-installed serif 
+  font-family*/;
+  color: red;
+}
+/* It would be a good idea to have a link to google-fonts: https://fonts.google.com/ */ 
+p, h2{
+	font-size: 112.5%;
+	font-family: 'Overpass Mono', monospace;
+	line-height: 1.3em;
+}
+ul, ol{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 0.75em;
+	word-spacing: 0.3em;
+	font-weight: 500;
+}
+/* A link to all the font-size measurments: https://www.codecademy.com/courses/learn-html-css/lessons/css-fonts/exercises/font-size-ii?action=lesson_resume */
+h2{
+	text-transform: uppercase;
+	word-spacing: 0.3em;
+}
+.para {
+	word-spacing: 0.3em;
+}
+h2.para {
+	word-spacing: 0.6em;
+}
+
+/* If you want to put two elements in two classes in which, one is same and the other is different, you have to: 
+<h1 class="book domestic">The Way of the Deep</h1>
+
+<h1 class="book foreign">A Night in the Sky</h1>
+
+.book {
+  font-family: Georgia, serif;
+}
+
+.domestic {
+  font-color: #0902CC;
+}
+
+.foreign {
+  font-color: #B097DD;
+}
+
+*/
+
+#h2-one {
+	color: red;
+}
+/*A link to CSS font-families: https://www.w3.org/Style/Examples/007/fonts.en.html#font-family*/
