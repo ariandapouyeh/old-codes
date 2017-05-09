@@ -1,0 +1,24 @@
+p {
+	font-family: 'Alegreya';     /* What does sarif and sans sarif font-families mean? : https://www.codecademy.com/en/courses/learn-html-css/lessons/css-fonts/exercises/serif-vs-sans*/ 
+	/* color: red; */ 
+	line-height: 1.1em;      /* More information in https://www.codecademy.com/en/courses/learn-html-css/lessons/css-fonts/exercises/line-height-anatomy */
+	word-spacing: 0.05em;     /* or normal*/
+    letter-spacing: 0.01em;  
+    font-weight: initial;      /* read more about it in: https://www.w3schools.com/cssref/pr_font_weight.asp */
+    font-style: oblique;       /* Read about it in: https://www.w3schools.com/cssref/pr_font_font-style.asp */
+}
+
+h1 {
+	/* font-family: default; 
+	then arial is replaced and if that is neither available any other sans-serif font-family is replaced. */
+	font-size: 40px;                    /* All the details about font sizes in: https://www.codecademy.com/en/courses/learn-html-css/lessons/css-fonts/exercises/font-size-ii */
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+/* @font-face {
+	font-family: "Alegreya";
+	src: url('https://fonts.googleapis.com/css?family=Alegreya'); /* also see: https://www.youtube.com/watch?v=0Jw-py6kqTk 
+}  */
+
